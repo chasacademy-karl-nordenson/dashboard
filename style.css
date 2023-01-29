@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300&family=Corben&family=Lato:wght@100&family=Nanum+Myeongjo:wght@700&family=Roboto&family=Rubik+Mono+One&family=Ubuntu&display=swap');
+
+
+
+body {  
+    background-size: cover;
+    margin:0;
+}
+
+main {
+
+    display: flex;
+    width: auto;
+    height: 100vh;
+}
+
+#col-left {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 33vw;
+    justify-content: space-between;
+}
+
+#col-mid {
+    display: flex;
+    height: 100vh;
+    width: 33vw;
+}
+
+#col-right {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 33vw;
+    justify-content: space-between;
+}
+
+#trivia {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2rem;
+    height: 3rem;
+    width: 20vw;
+}
+
+
+#weather {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 3rem 0 0;
+    width: auto;
+    flex-direction: column;
+    align-self: flex-end;
+    align-items: flex-end;
+}
+
+#timedate {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+#creator {
+    font-family: 'Lato', sans-serif;
+    height: auto;
+    width: auto;
+    margin: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    align-items: flex-start;
+    justify-content: flex-end;
+    /* align-self: flex-end; */
+}
+
+
+#news {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 2rem;
+    height: auto;
+    width: auto;
+    display:flex;
+    align-self: center;
+    justify-content: flex-end;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited { 
+    text-decoration: none; 
+    color: white; 
+   }
+
+a:hover {
+    color: blanchedalmond;
+}
+
+/* https://api.unsplash.com/photos/random/ */

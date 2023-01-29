@@ -1,0 +1,20 @@
+{
+  "name": "dashboard2",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Kalle",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.3"
+  },
+  "devDependencies": {
+    "buffer": "^5.7.1",
+    "parcel": "^2.8.2"
+  }
+}
